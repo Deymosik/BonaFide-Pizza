@@ -206,7 +206,7 @@ nav a:hover {
 }
 
 .fon-button button {
-    background-color: white;
+    background-color: #fcf6ec;
     color: #fff;
     border: none;
     padding: 10px;
@@ -220,7 +220,7 @@ nav a:hover {
     background-color: #f2a341;
 }
 .infodiv {
-    background-color: #f2f2f2;
+    background-color: #fcf6ec;
     max-width: 600px;
     margin: 80px auto;
     padding: 40px;
@@ -231,14 +231,16 @@ nav a:hover {
 .infodiv p{
     line-height: 1.6;
     color: #47476b;
+    font-family: 'Times New Roman', Times, serif;
 }
 .infodiv h2{
     color: #666;
     line-height: 1.6;
     text-align: center;
+    font-size: 50px;
 }
 .contactdiv {
-    background-color: #f2f2f2;
+    background-color: #fcf6ec;
     max-width: 700px;
     margin: 80px auto;
     padding: 25px;
@@ -293,7 +295,7 @@ nav a:hover {
 }
 
 .product {
-    background-color: #f2f2f2;
+    background-color: #fcf6ec;
     width: 25%; /* Устанавливаем ширину товара в одном ряду */
     padding: 20px;
     margin: 10px;
@@ -366,7 +368,7 @@ color: #999999;
 .main-container {
     max-width: 800px;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color:#fcf6ec;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -572,7 +574,6 @@ input, textarea {
         top: 0;
         text-align: center;
         display: flex;
-        
         position: fixed;
     }
     
@@ -585,6 +586,7 @@ input, textarea {
         z-index: -1;
         margin-top: -245px;
         transition: margin-top 1s;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     }
 
     .stobi-bilo{
